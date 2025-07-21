@@ -18,11 +18,12 @@ It allows the user to speak, transcribes their voice using Whisper, generates a 
 ## 🧠 Tech Stack
 
 - whisper – for automatic speech recognition (ASR)
-- cohere – for language model-based response generation
+- cohere – for language-based response generation
 - gTTS – for converting text to speech
 - playsound – for playing audio output
+- sounddevice – for recording audio from microphone
+- scipy – for saving audio to .wav format
 - tkinter – for graphical user interface (GUI)
-
 ---
 
 ## 🎬 Demo Video
@@ -160,7 +161,7 @@ root.mainloop()
 
 ## 🎀🌷 Created by 🎀🌷
 
-🎀 Ryoof Dkheel Allah Al-Malki 🎀
+🎀 Ryoof Dukhailallah Almalki 🎀
 
 
 ---
